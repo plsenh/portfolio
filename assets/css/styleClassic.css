@@ -37,41 +37,22 @@ footer,
 
 #logo:hover,
 input[type=submit]:hover {
-  color: #000;
-  background: #fadeff;
-}
-
-nav a:hover {
-  color: #000;
-  background-color: #fadeff;
+  background: #5e7f7e;
 }
 
 nav a:hover, a:hover {
-  text-decoration: none;
-  color: #000;
-  background-image: linear-gradient(180deg, #ffbf6b, #ffbf6b);
-  background-repeat: no-repeat;
-  background-position: 4px bottom;
-  background-size: 100% 10px;
+  color: #5e7f7e;
 }
 
 a {
   text-decoration: none;
-  color: #000;
-  background-image: linear-gradient(180deg, #fff06b, #fff06b);
-  background-repeat: no-repeat;
-  background-position: 4px bottom;
-  background-size: 100% 10px;
+  color: #999;
 }
 
 .social:hover {
   cursor: pointer;
   opacity: 0.8;
   filter: alpha(opacity=80);
-}
-
-.noborder, .noborder:hover {
-  background:none;
 }
 
 .work img:hover {
@@ -107,7 +88,7 @@ h2,
 h3 {
   font-family: 'Poppins', Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #000;
+  color: #4aaaa5;
 }
 
 h1 {
@@ -146,7 +127,7 @@ h3 {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #000;
+  background: #4aaaa5;
 }
 
 nav {
@@ -159,7 +140,7 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #000;
+  color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }
@@ -175,9 +156,10 @@ footer {
   clear: both;
   font-size: 12px;
   color: #fff;
+  color: #ccc;
   text-align: center;
-  background: #000;
-  border-top: 8px solid #fadeff;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
 }
 
 /* sidebar */
@@ -260,7 +242,7 @@ h3,
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #000;
+  background: #4aaaa5;
   border-bottom: 0;
 }
 
@@ -329,13 +311,11 @@ input[type=submit] {
 
 /* Tablet Width at 768px and below */
 @media screen and (max-width: 768px) {
-
   /* add padding for nav bar doesn't overflow */
   .container {
     padding-left: 20px;
     padding-right: 20px;
   }
-
   .sidebar {
     float: left;
     max-width: 650px;
@@ -357,10 +337,9 @@ input[type=submit] {
   #masthead {
     position: static;
   }
-
+  
   /* make width screen wide */
-  #logo,
-  #main-container {
+  #logo, #main-container {
     width: 100%;
   }
 
@@ -387,10 +366,11 @@ input[type=submit] {
   }
 
   /* expand width to one portfolio item per row */
-  .work,
-  .work img {
+  .work, .work img {
     width: 100%;
     height: 100%;
   }
 
 }
+
+
