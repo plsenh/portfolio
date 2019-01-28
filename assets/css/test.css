@@ -129,11 +129,12 @@ h3 {
   position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
+  /* margin: 0 0 30px; */
   overflow: auto;
   color: #fff;
   background: #fff;
-  border-bottom: 2px solid #ccc;
+  /* border-bottom: 2px solid #ccc; */
+  clear: both;
 }
 
 #logo {
