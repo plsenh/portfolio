@@ -82,6 +82,21 @@ h3 {
     clear: both;
 }
 
+/* test */
+/* header {
+    background: #f5b335;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+  } */
+/* test */
+/* add this class using javascript */
+/* .nav-up {
+  top: -40px;  same as header height. 
+} */
+
 #logo {
     float: left;
     width: 200px;
