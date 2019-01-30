@@ -444,7 +444,7 @@ h3,
 
 .logo-image {
     width: 30px;
-    /* height: auto; */
+    height: auto;
     border-radius: 50%;
 }
 
