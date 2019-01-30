@@ -5,14 +5,13 @@
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pauline Senh</title>
 
-  <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Anton|Cinzel|Poppins" rel="stylesheet">
 
   <!-- css -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style1.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrapedit.css">
 
   <!-- js -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -24,20 +23,92 @@
 </head>
 
 <body>
-
+  <!-- nav -->
   <header id="masthead">
-    <div class="container header">
-      <a href="index.html" id="logo" class="noborder">Pauline Senh</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <div class="header navbar-fixed">
+    <a href="indexnew.html" id="logo" class="noborder">Pauline Senh</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
     </div>
   </header>
 
   <div class="wrapper">
+    <a name="about"></a>
+      
     <div id="main-container" class="container">
+
+      <!-- intro -->
+      <section class="main-section">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="assets/images/profile.jpg" class="auth-image" alt="Pauline Senh">
+          </div>
+          <div class="col-md-9">
+            <p>Hi, I'm Pauline and I'm an aspiring full stack web developer.
+              <a href="Pauline_Senh_CV.pdf" target="_blank">(Resume)</a></p>
+
+            <p>Currently, I am employed as a Clinical Operations Manager at the University of Pennsylvania, where I
+              specialize primarily in strategic planning and cost analysis.</p>
+
+            <p>My strengths include an attention to detail, the ability to shift priorities in a rapidly changing
+              environment, an aptitude in streamlining processes, an interest in learning new systems, and a proactive
+              work
+              ethic. I love finding new ways to work smarter rather than harder.</p>
+          </div>
+        </div>
+
+        <!-- skills -->
+        <div class="row skills">
+          <h2>Skills</h2>
+        </div>
+        <div class="row skills">
+
+          <div class="col-md-3">
+            <h3>Front End</h3>
+            Bootstrap<br>
+            CSS 3<br>
+            HTML 5<br>
+            Handlebars<br>
+            JavaScript<br>
+            JQuery<br>
+          </div>
+
+          <div class="col-md-3">
+            <h3>Back End</h3>
+            Firebase<br>
+            MongoDB<br>
+            Mongoose<br>
+            NodeJS<br>
+            MySQL<br>
+            Sequelize<br>
+          </div>
+
+          <div class="col-md-3">
+            <h3>npm</h3>
+            Ajax<br>
+            Axios<br>
+            Express<br>
+            MomentJS<br>
+          </div>
+
+          <div class="col-md-3">
+            <h3>Other</h3>
+            Git<br>
+            Heroku<br>
+            Java<br>
+            Markdown<br>
+          </div>
+        </div>
+        <a name="portfolio"></a>
+      
+      </section>
+      <!-- </div> -->
+
+      <!-- portfolio -->
+      <!-- <div id="main-container" class="container"> -->
       <section class="main-section">
         <h1>Portfolio</h1>
 
@@ -92,7 +163,7 @@
         <div class="work">
           <a class="noborder" href="https://github.com/plsenh/bamazon/" target="_blank"><img src="assets/images/projects/bamazon.PNG"
               alt="bamazon">
-            <h3>bamazon</h3>
+            <h3>bamazon (node app)</h3>
           </a>
           <a href="https://github.com/plsenh/bamazon/" target="_blank">
             Github Repo
@@ -102,7 +173,7 @@
         <div class="work">
           <a class="noborder" href="https://github.com/plsenh/liri-node-app/" target="_blank"><img src="assets/images/projects/LIRI.PNG"
               alt="LIRI">
-            <h3>LIRI bot</h3>
+            <h3>LIRI bot (node app)</h3>
           </a>
           <a href="https://github.com/plsenh/liri-node-app/" target="_blank">
             Github Repo
@@ -181,31 +252,39 @@
           </a>
         </div>
 
-
       </section>
 
-      <section class="sidebar">
+      <!-- contact -->
+      <a name="contact"></a>
+      <section class="main-section">
         <div id="connect">
-          <h2>Connect with Me</h2>
+          <h1>Contact</h1>
+          <p>Email:
+            <!-- <a href="mailto:plsenh@gmail.com"> -->
+            plsenh@gmail.com
+            <!-- </a> -->
+            <br>Mobile: 267-265-9925</p>
 
-          <a class="noborder" href="https://github.com/plsenh/" target="_blank"><img src="assets/images/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png"
-              class="social" alt="Github"></a>
           <a class="noborder" href="https://www.linkedin.com/in/plsenh/" target="_blank"><img src="assets/images/LinkedIn-[in]-for-Screen/2-Color/In-2C-128px-R.png"
               class="social" alt="LinkedIn"></a>
-          <a class="noborder" href="https://stackoverflow.com/users/10047876/pauline-s" target="_blank"><img src="assets/images/Stack-Overflow/so-icon.png"
-              class="social" alt="Stack Overflow"></a>
+          <a class="noborder" href="https://github.com/plsenh/" target="_blank"><img src="assets/images/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png"
+              class="social" alt="Github"></a>
           <a class="noborder" href="mailto:plsenh@gmail.com"><img src="assets/images/128px-New_Logo_Gmail.svg.png"
               class="social" alt="plsenh@gmail.com"></a>
+          <!-- <a class="noborder" href="https://stackoverflow.com/users/10047876/pauline-s" target="_blank"><img src="assets/images/Stack-Overflow/so-icon.png"
+              class="social" alt="Stack Overflow"></a> -->
+
         </div>
       </section>
 
+      <!-- for footer -->
       <div class="push"></div>
     </div>
   </div>
 
   <footer>
     <div class="container">
-      Copyright &copy;
+      Copyright &copy; Pauline Senh 2019
     </div>
   </footer>
 </body>
