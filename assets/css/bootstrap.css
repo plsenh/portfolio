@@ -39,18 +39,32 @@ html{
     padding-top: 20px;
 }
 
-#pink {
+#pink-one {
     /* background-color: #fff06b; */
-    /* background-color: #f2c8fa; */
-    background-image: linear-gradient(to bottom, #fff, #f2c8fa, #fff);
+    background-color: #f6f5f3;
+    /* background-image: linear-gradient(to bottom, #f2c8fa, #fff); */
     /* background-image: linear-gradient(to bottom right, #fff, #f2c8fa, #fff, #f2c8fa, #fff); */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
+}
+
+#pink-two {
+    /* background-color: #fff06b; */
+    background-color: #e9eaec;
+    /* background-image: linear-gradient(to bottom, #fff, #f2c8fa); */
+    /* background-image: linear-gradient(to bottom right, #fff, #f2c8fa, #fff, #f2c8fa, #fff); */
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
 }
 
 #grey {
@@ -86,6 +100,8 @@ html{
 #light {
     color: #000;
     background-color: #fff;
+    /* background-image: linear-gradient(to bottom, #fff, #f2c8fa, #fff); */
+    
 }
 
 
@@ -137,7 +153,7 @@ h3 {
     margin: 0 auto;
     overflow: auto;
     color: #fff;
-    background: #fff;
+    background: #f9f0eb;
     /* border-bottom: 2px solid #000; */
     clear: both;
 }
@@ -169,8 +185,8 @@ h3 {
     text-align: center;
     text-decoration: none;
     /* background: #000; */
-    -webkit-filter: drop-shadow(6px 6px 3px rgb(201, 196, 196));
-    filter: drop-shadow(6px 6px 3px rgb(201, 196, 196));
+    /* -webkit-filter: drop-shadow(6px 6px 3px rgb(201, 196, 196));
+    filter: drop-shadow(6px 6px 3px rgb(201, 196, 196)); */
 }
 
 nav {
@@ -183,27 +199,17 @@ nav a {
     padding-left: 15px;
     margin-right: 15px;
     line-height: 18px;
-    color: #000;
+    /* color: #000;
     text-decoration: none;
     -webkit-filter: drop-shadow(6px 6px 3px rgb(201, 196, 196));
     filter: drop-shadow(6px 6px 3px rgb(201, 196, 196));
     background-image: linear-gradient(180deg, #fff06b, #fff06b);
     background-repeat: no-repeat;
     background-position: 4px bottom;
-    background-size: 100% 10px;
+    background-size: 100% 10px; */
     /* border-left: 1px solid #efefef; */
     /* border-left: 1px solid #ccc; */
-}
 
-nav a:first-child {
-    border-left: 0 none;
-}
-
-nav a:last-child {
-    margin-right: 25px;
-}
-
-nav a:hover {
     color: #000;
     background-color: #fadeff;
     text-decoration: none;
@@ -216,21 +222,53 @@ nav a:hover {
     background-size: 100% 10px;
 }
 
+nav a:first-child {
+    border-left: 0 none;
+}
+
+nav a:last-child {
+    margin-right: 25px;
+}
+
+nav a:hover {
+    /* color: #000;
+    background-color: #fadeff;
+    text-decoration: none;
+    -webkit-filter: drop-shadow(6px 6px 3px rgb(201, 196, 196));
+    filter: drop-shadow(6px 6px 3px rgb(201, 196, 196)); */
+    /* background-image: linear-gradient(180deg, #ffbf6b, #ffbf6b); */
+    /* background-image: linear-gradient(180deg, #ccc, #ccc);
+    background-repeat: no-repeat;
+    background-position: 4px bottom;
+    background-size: 100% 10px; */
+
+    color: #333;
+    text-decoration: none;
+    -webkit-filter: drop-shadow(6px 6px 3px rgb(201, 196, 196));
+    filter: drop-shadow(6px 6px 3px rgb(201, 196, 196));
+    /* background-image: linear-gradient(180deg, #fff06b, #fff06b); */
+    background-image: linear-gradient(180deg, #e9eaec, #e9eaec);
+    background-repeat: no-repeat;
+    background-position: 4px bottom;
+    background-size: 100% 10px;
+}
+
 /* ================== */
 /* start link + hover styling */
 
 
 a:hover {
-    color: #000;
+    color: #333;
     /* background-color: #fadeff; */
     text-decoration: none;
     /* -webkit-filter: drop-shadow(6px 6px 3px rgb(201, 196, 196));
     filter: drop-shadow(6px 6px 3px rgb(201, 196, 196)); */
-    background-image: linear-gradient(180deg, #f2c8fa, #f2c8fa);
+    /* background-image: linear-gradient(180deg, #f2c8fa, #f2c8fa); */
+    background-image: linear-gradient(180deg, #f9f0eb, #f9f0eb);
     /* background-image: linear-gradient(180deg, #ccc, #ccc); */
     background-repeat: no-repeat;
-    background-position: 0px bottom;
-    background-size: 100% 5px;
+    background-position: 4px bottom;
+    background-size: 100% 10px;
 }
 
 a {
@@ -241,9 +279,10 @@ a {
     filter: drop-shadow(6px 6px 3px rgb(201, 196, 196)); */
     /* background-image: linear-gradient(180deg, #fadeff, #fadeff); */
     /* background-image: linear-gradient(180deg, #fff06b, #fff06b); */
+    background-image: linear-gradient(180deg, #e9eaec, #e9eaec);
     background-repeat: no-repeat;
-    background-position: 0px bottom;
-    background-size: 100% 5px;
+    background-position: 4px bottom;
+    background-size: 100% 10px;
 }
 
 #logo:hover,
@@ -414,8 +453,9 @@ h3,
     line-height: 10px;
     color: #000;
     text-align: center;
-    background: #f2c8fa;
-    background: #fff06b;
+    /* background: #f2c8fa; */
+    /* background: #fff06b; */
+    background: #f9f0eb;
     border-bottom: 0;
     /* topL topR botR botL */
     /* border-radius: 0px 12px 0px 13px; */
@@ -502,13 +542,13 @@ input[type=submit] {
 /* footer */
 
 .round {
-    font-size: 22px;
-    color: #fff;
+    font-size: 14px;
+    color: #333;
     border-radius: 10%;
 }
 
 .round:hover {
-    color: #ddd;
+    color: #555;
     border-radius: 10%;
 }
 
@@ -516,10 +556,10 @@ footer {
     /* padding: 30px 0; */
     padding: 10px 0;
     clear: both;
-    font-size: 15px;
-    color: #fff;
+    font-size: 14px;
+    color: #333;
     text-align: center;
-    background: #000;
+    background: #e9eaec;
     /* border-top: 8px solid #fadeff; */
 }
 
