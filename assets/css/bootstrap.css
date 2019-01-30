@@ -17,7 +17,7 @@ body {
     /* background: url("../images/concrete_seamless.png"); */
 }
 
-html{
+html {
     overflow-y: scroll;
 }
 
@@ -38,7 +38,7 @@ html{
 }
 
 .about {
-    width:100%;
+    width: 100%;
     max-width: 680px;
     text-align: justify;
 }
@@ -94,7 +94,10 @@ html{
     background-color: #000;
 }
 
-#dark, #dark h1, #dark h2, #dark a {
+#dark,
+#dark h1,
+#dark h2,
+#dark a {
     color: #eee;
 }
 
@@ -110,7 +113,7 @@ html{
     color: #000;
     background-color: #fff;
     /* background-image: linear-gradient(to bottom, #fff, #f2c8fa, #fff); */
-    
+
 }
 
 
@@ -149,7 +152,7 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     /* vertical-align: middle; */
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* ================== */
@@ -388,21 +391,21 @@ h3,
 }
 
 .skills {
-   font-size: 14px;
-   line-height: 130%;
+    font-size: 14px;
+    line-height: 130%;
 }
 
 .skills h2 {
     font-size: 20px;
     margin: 0 auto;
     padding: 0;
- }
+}
 
 .skills h3 {
     font-size: 16px;
     margin: 0 auto;
     padding: 0;
- }
+}
 
 .work {
     position: relative;
@@ -597,8 +600,8 @@ body {
 
 footer,
 .push {
-    /* height: 105px; */
-    height: 75px;
+    height: 105px;
+    /* height: 75px; */
 }
 
 /* ================== */
@@ -615,6 +618,13 @@ footer,
         max-width: 650px;
     }
 
+    footer {
+        font-size: 18px;
+    }
+
+    .round {
+        font-size: 24px;
+    }
 }
 
 /* ================== */
@@ -632,6 +642,18 @@ footer,
         float: left;
         max-width: 650px;
     }
+
+    footer {
+        font-size: 18px;
+    }
+
+    .round {
+        font-size: 24px;
+    }
+
+    /* .hide {
+        display:none;
+    } */
 }
 
 /* ================== */
@@ -685,6 +707,18 @@ footer,
     .work img {
         width: 100%;
         height: 100%;
+    }
+
+    footer {
+        font-size: 18px;
+    }
+
+    .round {
+        font-size: 24px;
+    }
+
+    .hide {
+        display:none;
     }
 
 }
