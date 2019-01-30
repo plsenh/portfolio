@@ -696,7 +696,11 @@ footer,
 
     /* change to static position */
     #masthead {
-        position: static;
+        /* position: static; */
+    }
+
+    .top {
+        margin-top: 20px;
     }
 
     /* make width screen wide */
@@ -735,7 +739,7 @@ footer,
         height: 100%;
     }
 
-    .work img, 
+    .work img,
     .work h3 {
         /* border-radius: 0px; */
     }
