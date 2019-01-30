@@ -50,6 +50,7 @@ html {
 #pink-one {
     /* background-color: #fff06b; */
     background-color: #f6f5f3;
+    /* background: #f9f0eb; */
     /* background-image: linear-gradient(to bottom, #f2c8fa, #fff); */
     /* background-image: linear-gradient(to bottom right, #fff, #f2c8fa, #fff, #f2c8fa, #fff); */
     /* background-repeat: no-repeat;
@@ -64,6 +65,7 @@ html {
 #pink-two {
     /* background-color: #fff06b; */
     background-color: #e9eaec;
+    /* background-color: #f6f5f3; */
     /* background-image: linear-gradient(to bottom, #fff, #f2c8fa); */
     /* background-image: linear-gradient(to bottom right, #fff, #f2c8fa, #fff, #f2c8fa, #fff); */
     /* background-repeat: no-repeat;
@@ -733,7 +735,7 @@ footer,
         height: 100%;
     }
 
-    .work img,
+    .work img, 
     .work h3 {
         /* border-radius: 0px; */
     }
