@@ -2,17 +2,8 @@ body {
     font-family: 'Poppins', Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
     line-height: 34px;
-    color: #666;
-    /* background-color: #fff; */
-    background-image: linear-gradient(to bottom right, #fff, #f2c8fa, #fff);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(242,200,250,1)); */
+    color: #777;
+    background-color: #fff;
     /* background: url("../images/concrete_seamless.png"); */
 }
 
@@ -206,9 +197,8 @@ input[type=submit]:hover {
     /* max-width: 650px; */
     padding: 30px;
     margin: 0 0 40px;
-    background: #fff;
-    /* background-color: rgba(255, 255, 255, 0.8); */
-    /* border: 1px solid #ddd; */
+    /* background: #eee; */
+    border: 1px solid #ddd;
 }
 
 /* ================== */
@@ -280,8 +270,12 @@ h3,
     height: 260px;
     /* border: 0 none; */
     /* background-color:blue; */
-    border-radius: 5%;
+    border-radius: 10%;
 }
+
+/* .img {
+    border-radius: 25px;
+} */
 
 .work img:hover {
     cursor: pointer;
@@ -302,7 +296,7 @@ h3,
     background: #000;
     border-bottom: 0;
     /* topL topR botR botL */
-    border-radius: 0px 12px 0px 13px;
+    border-radius: 0px 12px 0px 25px;
 
     /* position: absolute;
     top: 200px;
@@ -331,12 +325,6 @@ h3,
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
-    border-radius: 50%;
-}
-
-.logo-image {
-    width: 30px;
-    height: auto;
     border-radius: 50%;
 }
 
@@ -384,26 +372,14 @@ input[type=submit] {
 /* ================== */
 /* footer */
 
-.round {
-    font-size: 22px;
-    color: #fff;
-    border-radius: 10%;
-}
-
-.round:hover {
-    color: #ddd;
-    border-radius: 10%;
-}
-
 footer {
-    /* padding: 30px 0; */
-    padding: 10px 0;
+    padding: 30px 0;
     clear: both;
-    font-size: 15px;
+    font-size: 12px;
     color: #fff;
-    text-align: left;
+    text-align: center;
     background: #000;
-    /* border-top: 8px solid #fadeff; */
+    border-top: 8px solid #fadeff;
 }
 
 /* sticky footer styling */
@@ -422,8 +398,7 @@ body {
 
 footer,
 .push {
-    /* height: 105px; */
-    /* height: 75px; */
+    height: 105px;
 }
 
 /* ================== */
